@@ -1,0 +1,16 @@
+/*css 選擇器-註解集中管理*/
+/*標籤名稱選擇器*/
+body{background-color:#cccccc;font-family:"微軟正黑體","新細明體"}
+botton
+/*ID 選擇器：單一獨一無二標籤-「id」=""*/
+#del{text-decoration:line-through;}
+/*class 選擇器-「.」*/
+    .all{background-color: #cccccc}
+    .title{Color:red}
+    .titleone{font-size:24px;font-wight:bold}
+    .content{border:1px dashed blue;padding:10px}
+    .contenttwo{height:auto;width:500px;margin-top:20px;border:5px dashed blue;padding:20px}
+    .key{color:red}
+    .keyword{background-color:grey}
+    .underline{text-decoration:underline }
+  

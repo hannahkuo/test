@@ -1,0 +1,71 @@
+<!--加入宣告：告訴別人檔案是html，專業必寫此串-->
+<!DOCTYPE html>
+<!--開始-->
+<html>
+<head>
+<!--告訴瀏覽器編碼是"utf8"-->
+<meta charset="utf8"/>
+<!--分頁名字-->
+<title>My  Homepage</title>
+</head>
+<body>
+    <!--
+        關於換行
+            1.程式碼中的換行非實際網頁顯示換行
+            2.標籤的顯示模式(display)
+                2.1 行內模式 inline：img hr
+                2.2 區塊模式 block(自行換行)：a
+            3.隨時可以用<br/>標籤換行
+    -->
+    <!--註解 頁面上看不到的-->
+    <h1>Helo<u>HTML</u></h1>
+    <!--中文文字輸入用IE開會亂碼-->
+    <h3>我的<u>基本資料</u></h3>
+    </h1>
+    <!--<hr/>單一標籤:頁面中橫線-->
+    <hr/>
+    <!--超連結-另開視窗 target="_blank"(底線意思是「開啟一個」「空白」)-->
+    <!--隨時可以用<br/>標籤換行：放於結尾-->
+    <a href="https://wwww.facebook.com/" target="_blank">facebook<br/></a>
+    <!--圖片連結-->
+    <img src="img.jpg"alt="Smiley face" height="130" width="100"></img>
+
+    <h3>My Favorites</h3>
+    <!--數字標籤-->
+    <ol>
+        <li>Google</li>
+        <li>Facebook</li>
+        <li>
+            <a href="http://www.google.com/">Google</a>
+        </li>
+    </ol>
+    <!--實心圈圈標籤-->
+    <ul>
+        <li>Google</li>
+        <li>Facebook</li>
+    </ul>
+    <!--<table></table>表格製作3x3-->
+    <!--曹狀表格<tr></tr><td></td>-->
+    <!--<td colspan="3">(合併「"幾格"」儲存格概念)年月日表格</td>-->
+    <table border="1"width="400"cellpadding="10">
+        <tr>
+            <td colspan="3">年月日表格</td>
+        <tr>
+            <td>年</td>
+            <td>月</td>
+            <td>日</td>
+        </tr>
+        <tr>
+            <td>2019</td>
+            <td>01</td>
+            <td>20</td>
+        </tr>
+        <tr>
+            <td>2019</td>
+            <td>02</td>
+            <td>15</td>
+        </tr>
+    </table>
+        
+</body>
+</html>
